@@ -7,10 +7,10 @@ Penularan kasus MonkeyPox mengalami kenaikan yang sangat signifikan di beberapa 
 
 ## Data
 Dataset terbagi menjadi dua kategori, yaitu:
-##### 1. Original Images
+#### 1. Original Images
 Original images terdiri dari 5 folds (lipatan) yang di dalamnya terdapat folder Train, Valid, dan Test. Masing-masing berisikan citra dari kulit dengan 6 kelas berbeda.
 
-##### 2. Augmented Images
+#### 2. Augmented Images
 Augmented images terdiri dari 5 folds (lipatan) yang di dalamnya hanya terdapat folder Train untuk masing-masing kelas.
 
 ## Commands
