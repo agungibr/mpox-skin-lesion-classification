@@ -7,10 +7,10 @@ Penularan kasus MonkeyPox mengalami kenaikan yang sangat signifikan di beberapa 
 
 ## Data
 Dataset terbagi menjadi dua kategori, yaitu:
-### 1. Original Images
+##### 1. Original Images
 Original images terdiri dari 5 folds (lipatan) yang di dalamnya terdapat folder Train, Valid, dan Test. Masing-masing berisikan citra dari kulit dengan 6 kelas berbeda.
 
-### 2. Augmented Images
+##### 2. Augmented Images
 Augmented images terdiri dari 5 folds (lipatan) yang di dalamnya hanya terdapat folder Train untuk masing-masing kelas.
 
 ## Commands
@@ -58,4 +58,4 @@ Dari gambar diatas menunjukan semua class memiliki nilai prediksi sempurna 1.0 k
 ### 4. ROC-AUC
 ![roc_auc](https://github.com/user-attachments/assets/77478c74-84d9-494b-86b8-f31a9fee4a84)
 
-ROC (Receiver Operating Characteristic) adalah grafik yang menunjukkan performa model klasifikasi pada berbagai nilai ambang (threshold). Grafik ini memplot True Positive Rate (TPR) di sumbu y dan False Positive Rate (FPR) di sumbu x. AUC (Area Under the Curve) adalah ukuran luas di bawah kurva ROC. Dari gambar diatas dapat dilihat semua kelas hampir mendekati 1 (100%), kecuali Monkeypox (AUC ≈ 0.99). Hal ini menunjukkan model memiliki performa yang sangat baik dalam membedakan setiap kelas. Garis putus-putus (AUC = 0.50) menunjukkan performa tebak acak
+ROC (Receiver Operating Characteristic) adalah grafik yang menunjukkan performa model klasifikasi pada berbagai nilai ambang (threshold). Grafik ini memplot True Positive Rate (TPR) di sumbu y dan False Positive Rate (FPR) di sumbu x. AUC (Area Under the Curve) adalah ukuran luas di bawah kurva ROC. Dari gambar diatas dapat dilihat semua kelas hampir mendekati 1 (100%), kecuali Monkeypox (AUC ≈ 0.99). Hal ini menunjukkan model memiliki performa yang sangat baik dalam membedakan setiap kelas. Garis putus-putus (AUC = 0.50) menunjukkan performa random guess
